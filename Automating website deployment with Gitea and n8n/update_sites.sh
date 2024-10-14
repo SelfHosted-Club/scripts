@@ -11,7 +11,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Configuration Variables
-REPO_URL="http://gitea/youruser/exanoke.git"
+REPO_URL="http://gitea/youruser/example.git"
 TARGET_DIR="/var/www/html/yourdomain"
 BRANCH="main"  # Change if your default branch is different
 DEPLOY_USER="www-data"  # Assuming you're using 'www-data'; change if using a different user
